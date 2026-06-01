@@ -6,7 +6,7 @@ terraform {
     }
   }
   backend "s3" {
-    bucket = "terraform-86s-remote" 
+    bucket = "cmk-remote-state-dev-bucket-1" 
     key = "vpc-module-demo"
     region = "us-east-1"
     use_lockfile = true
